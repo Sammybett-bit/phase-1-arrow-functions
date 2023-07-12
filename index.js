@@ -5,9 +5,11 @@ const divide = function() {
   divide(2000 / 100);
   console.log( divide(2000 / 100));
 
-  const numbers = [4, 3];
-  const square = (number) => number * number;
-  const squaredNumbers = numbers.map(square);
+  const square = x => x * x;
+  let x = 2;
+  let answer = (square(x));
+  console.log(answer);
+
   const add = (a, b) => {
     return a + b;
   };
@@ -19,4 +21,3 @@ const divide = function() {
   console.log(result); 
   
 
-  console.log(squaredNumbers); 
